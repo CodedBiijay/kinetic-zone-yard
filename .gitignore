@@ -1,0 +1,4 @@
+.DS_Store
+.hermes/
+.env
+node_modules/
