@@ -1,31 +1,11 @@
 # KineticZoneYard (kineticzoneyard.com)
 > Part of the micro-ventures studio portfolio under **thatshouldbeanapp.com**.
-
-An elite, hybrid fitness planner that cross-references biometrics, spatial environments, and equipment stacks to synthesize customized training routines.
-
+KineticZoneYard is an architectural framework for radical physical autonomy. It bypasses the friction of predatory gym subscriptions and bloated equipment dependencies, empowering individuals to take absolute ownership of their health across body, mind, and soul through the precise practice of calisthenics.
+By mapping an individual spatial reality and raw physical constraints, KZY engineers an optimized training matrix that turns any environment into a premium developmental ground for human capability.
 ---
-
-## 📋 Architectural Directory Map
-
-- **docs/prd.md**: Application logic and the 5 Onboarding Journey steps
-- **n8n/workout_generator_payload.json**: Webhook mock payload array for automation testing
-- **supabase/migrations/01_initial_matching_schema.sql**: Database core setup with strict relational constraints
-- **vault/DEVELOPER_GUIDELINES.md**: Code aesthetics, language rules, and stack definitions
-- **web/onboarding_flow_config.json**: Frontend layout definitions for the Lovable build
-
----
-
-## ⚡ The Core Value Stream (The Engine)
-
-1. **The Edge Interaction:** User completes a minimalist frontend sequence answering 5 critical metric blocks.
-2. **The Relational Guard:** Data maps instantly to a Supabase PostgreSQL backend structured around UUID schemas.
-3. **The Orchestration Loop:** A JSON array webhook fires into **n8n**, initializing background matching loops.
-
----
-
-## 🛠️ Local System Initialization Quickstart
-
-```bash
-hermes config set model.context_length 65536
-hermes --tui
-```
+## Architectural Directory Map
+- docs/prd.md: Sovereign user onboarding journey stages and biometric alignment principles.
+- n8n/workout_generator_payload.json: Webhook mock payload array for local orchestration loop validation.
+- supabase/migrations/01_initial_matching_schema.sql: Relational data schema tracking user environments via strict UUID logic.
+- vault/DEVELOPER_GUIDELINES.md: System engineering principles, distributed compute aesthetics, and strict language rules.
+- web/onboarding_flow_config.json: High-end minimalist frontend step definitions for the Lovable client interface.
