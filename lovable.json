@@ -1,0 +1,18 @@
+{
+  "project_id": "kinetic-zone-yard",
+  "framework": "vite-react-tailwind",
+  "styling": {
+    "theme": "light",
+    "primary_color": "#111111",
+    "background_color": "#FFFFFF",
+    "border_radius": "none"
+  },
+  "routing": {
+    "config_source": "web/onboarding_flow_config.json",
+    "ui_manifest": "web/LOVABLE_UI_PANELS.md"
+  },
+  "deployment": {
+    "provider": "vercel",
+    "auto_publish": true
+  }
+}
